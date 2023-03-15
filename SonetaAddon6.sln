@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SonetaAddon6", "SonetaAddon6\SonetaAddon6.csproj", "{870996BB-91CC-484E-B451-B0692F3E4A42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D31D5364-9623-471C-9E02-030F361E5DFB}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SonetaAddon6.UI", "SonetaAddon6.UI\SonetaAddon6.UI.csproj", "{2571CB64-F5FB-46CC-B969-D384BD63E325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SonetaAddon6.Tests", "SonetaAddon6.Tests\SonetaAddon6.Tests.csproj", "{66BD25DA-1BB2-436C-8DB6-184391138A0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{870996BB-91CC-484E-B451-B0692F3E4A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{870996BB-91CC-484E-B451-B0692F3E4A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{870996BB-91CC-484E-B451-B0692F3E4A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{870996BB-91CC-484E-B451-B0692F3E4A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2571CB64-F5FB-46CC-B969-D384BD63E325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2571CB64-F5FB-46CC-B969-D384BD63E325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2571CB64-F5FB-46CC-B969-D384BD63E325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2571CB64-F5FB-46CC-B969-D384BD63E325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66BD25DA-1BB2-436C-8DB6-184391138A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66BD25DA-1BB2-436C-8DB6-184391138A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66BD25DA-1BB2-436C-8DB6-184391138A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66BD25DA-1BB2-436C-8DB6-184391138A0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {180A0A3F-65AC-46FF-BE40-7CF5F5C00D3D}
+	EndGlobalSection
+EndGlobal
